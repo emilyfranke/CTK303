@@ -1,0 +1,50 @@
+body {
+  background-color: #000000;
+  color: white;
+  background-image: url("candle.gif");
+  text
+}
+
+header {
+  font-family: 'Reenie Beanie', cursive;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+}
+
+.textshadowbox {
+  background-color: #EEC8EC;
+  border-radius: 100px;
+}
+
+nav {
+text-align: center;
+color: black;
+background-color: white;
+display: block;
+text-decoration: none;
+decoration: none;
+}
+
+li{
+    display: inline-grid;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    decoration: none;
+}
+
+
+main li{
+  text-align: center;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+
+main{
+  text-align: center;
+}
