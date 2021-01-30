@@ -38,6 +38,7 @@ nav a:hover {
 #slide1 {
   margin-left: 750px;
   margin-top: -200px;
+  border-radius: 100px;
 }
 
 #slide1 {
@@ -58,6 +59,7 @@ nav a:hover {
 #slide2 {
   margin-left: 100px;
   margin-top: 200px;
+  border-radius: 100px;
 }
 
 #slide2 {
