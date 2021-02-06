@@ -1,0 +1,35 @@
+#bobbin {
+  width: 600px;
+  background-color: #ed80e2;
+}
+
+#black{
+  animation: blackhat 20s;
+}
+
+@keyframes blackhat {
+  0%   { transform: translate(0, 0px);}
+  10% { transform: translate(0, -200px);}
+  100% { transform: translate(0, 0px);}
+}
+
+
+#cowboy{
+  animation: cowboyhat 10s;
+}
+
+@keyframes cowboyhat {
+  0%   { transform: translate(0, 0px);}
+  15% { transform: translate(0, -275px);}
+  100% { transform: translate(0, 0px);}
+}
+
+#captain {
+  animation: captainhat 12s;
+}
+
+@keyframes captainhat {
+  0%   { transform: translate(0, 0px);}
+  70% { transform: translate(0, -275px);}
+  100% { transform: translate(0, 0px);}
+}
