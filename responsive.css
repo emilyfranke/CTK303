@@ -1,0 +1,75 @@
+body {
+	font-family: Arial
+	padding: 1em;
+  margin: 1em;
+text-align: left;
+}
+
+
+h1 {
+	color: #FFC300;
+	text-shadow: black 1px 1px 1px;
+	font-size: 3em;
+	margin: 1em;
+	padding: 0;
+  text-align: center;
+}
+
+.utah {
+  width: 100%;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+nav {
+display: inline-grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-column-gap: 2em;
+grid-row-gap: 3em;
+margin-bottom: 2em;
+}
+
+nav a {
+	color: #F590DF;
+	text-decoration: none;
+	border: 1px solid #999;
+	background-color: #ffffff;
+	border-radius: 1em;
+	padding: 1em;
+}
+
+h2 {
+	color: #FF5733;
+	font-weight: normal;
+	margin: 0;
+	padding: .50em;
+	border-bottom: 1px solid #DAF7A6;
+}
+
+.across {
+  display: flex;
+  padding-left: 1em;
+  column-gap: 1.5em;
+}
+
+.up {
+  flex: 50%;
+  border: 1px solid black;
+  padding: 1em;
+}
+
+
+@media all and (min-width: 30em){
+  h1 { color: #FF5733; }
+  nav { grid-template-columns: 1fr 1fr 1fr 1fr, color: #FF5733;, background-color: #DAF7A6;}
+}
+
+@media all and (min-width: 50em){
+  h1 { color: #FFC300; padding-bottom: .1em; }
+  .utah { width: 90%; float: right; }
+  nav { width: 10%; grid-template-columns: 1fr; }
+  nav a { margin-right: 1em; }
+  main { clear: both; grid-template-columns: repeat(3,1fr); grid-column-gap: 2em; }
+  body { max-width: 960px; margin: 0em auto; padding: 0 0 0 0; }
+
+}
