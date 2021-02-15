@@ -30,10 +30,9 @@ margin-bottom: 2em;
 }
 
 nav a {
-	color: #F590DF;
+	color: white;
 	text-decoration: none;
-	border: 1px solid #999;
-	background-color: #ffffff;
+	background-color: #DAF7A6;
 	border-radius: 1em;
 	padding: 1em;
 }
